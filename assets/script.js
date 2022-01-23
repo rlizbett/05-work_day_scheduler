@@ -8,13 +8,33 @@ var twoPM = document.getElementById("2pm");
 var threePM = document.getElementById("3pm");
 var fourPM = document.getElementById("4pm");
 var fivePM = document.getElementById("5pm");
-var button9 = document.getElementById("saveBtn9");
-var button10 = document.getElementById("saveBtn10");
-var button11 = document.getElementById("saveBtn11");
-var button12 = document.getElementById("saveBtn12");
-var button1 = document.getElementById("saveBtn1");
-var button2 = document.getElementById("saveBtn2");
-var button3 = document.getElementById("saveBtn3");
-var button4 = document.getElementById("saveBtn4");
-var button5 = document.getElementById("saveBtn5");
+
+//9am time block
+document.getElementById("9am").value = localStorage.getItem("9amText")
+document.getElementById("saveBtn9").addEventListener("click", function(event){
+    event.preventDefault();
+    localStorage.setItem("9amText", document.getElementById("9am").value)
+    console.log("saveTime9")
+})
+//10am time block
+document.getElementById("10am").value = localStorage.getItem("10amText")
+document.getElementById("saveBtn10").addEventListener("click", function(event){
+    event.preventDefault();
+    localStorage.setItem("10amText", document.getElementById("10am").value)
+    console.log("saveTime10")
+})
+//11am time block
+document.getElementById("11am").value = localStorage.getItem("11amText")
+document.getElementById("saveBtn11").addEventListener("click", function(event){
+    event.preventDefault();
+    localStorage.setItem("11amText", document.getElementById("11am").value)
+    console.log("saveTime11")
+})
+//12pm time block
+document.getElementById("12pm").value = localStorage.getItem("12pmText")
+document.getElementById("saveBtn12").addEventListener("click", function(event){
+    event.preventDefault();
+    localStorage.setItem("12pmText", document.getElementById("12pm").value)
+    console.log("saveTime12")
+})
 
