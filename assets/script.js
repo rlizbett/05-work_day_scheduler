@@ -8,5 +8,13 @@ var twoPM = document.getElementById("2pm");
 var threePM = document.getElementById("3pm");
 var fourPM = document.getElementById("4pm");
 var fivePM = document.getElementById("5pm");
-
+var button9 = document.getElementById("saveBtn9");
+var button10 = document.getElementById("saveBtn10");
+var button11 = document.getElementById("saveBtn11");
+var button12 = document.getElementById("saveBtn12");
+var button1 = document.getElementById("saveBtn1");
+var button2 = document.getElementById("saveBtn2");
+var button3 = document.getElementById("saveBtn3");
+var button4 = document.getElementById("saveBtn4");
+var button5 = document.getElementById("saveBtn5");
 
